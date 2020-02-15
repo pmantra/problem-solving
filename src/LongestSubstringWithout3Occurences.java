@@ -1,7 +1,7 @@
 public class LongestSubstringWithout3Occurences {
 
   public static void main(String...strings) {
-    String s = "aabbaaaaabb";
+    String s = "bbaaababab";
     LongestSubstringWithout3Occurences sol = new LongestSubstringWithout3Occurences();
     System.out.println(sol.getLongestSubString(s));
   }
