@@ -100,10 +100,11 @@ public class AutoComplete {
 
   public static void main(String...strings) {
     Trie trie = new Trie();
-    String[] words = {"mobile", "money", "moneypot", "mouse", "mousepad"};
+    //String[] words = {"mobile", "money", "moneypot", "mouse", "mousepad"};
+    String[] words = {"oath","pea","eat","rain"};
     for(String word : words) {
       trie.addWord(word);
     }
-    System.out.println("search results: "+trie.search("mou"));
+    System.out.println("search results: "+trie.search("oa"));
   }
 }
